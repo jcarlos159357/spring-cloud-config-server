@@ -8,7 +8,7 @@ eureka:
 ---
 spring:
   profiles: subject
-words: Yo,Tu,El,Ella,Esto
+words: Yo, Tu, El, Ella, Esto
 
 ---
 spring:
