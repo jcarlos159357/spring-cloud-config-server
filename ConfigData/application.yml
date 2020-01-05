@@ -4,7 +4,9 @@ eureka:
     healthCheckUrlPath: ${management.endpoints.web.base-path}/health
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://eureka-primary:8011/
+      defaultZone: http://eureka-secundary:8012/
+      defaultZone: http://eureka-tertiary:8013/
 ---
 spring:
   profiles: subject
